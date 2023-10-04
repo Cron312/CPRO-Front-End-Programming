@@ -8,8 +8,8 @@ div {
     background-color: #FFF000;
     border: 1px green;
     border-radius: 0.05rem;
-    margin: 0.1rem;
-    font-size: 24pt;
+    margin: 20rem;
+    font-size: 10pt;
 }
 
 nav {
@@ -18,4 +18,4 @@ nav {
 }
 
 h3 {color: #FF0000}
-html {background-color: #00FFFF}
+
