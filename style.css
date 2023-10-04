@@ -8,13 +8,13 @@ div {
     background-color: #FFF000;
     border: 1px green;
     border-radius: 0.05rem;
-    margin: 20rem;
+    margin: 5rem;
     font-size: 10pt;
 }
 
 nav {
      border: 1px solid #000;
-    height: 250px; 
+    height: 150px; 
 }
 
 h3 {color: #FF0000}
