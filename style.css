@@ -1,2 +1,21 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+div {
+    background-color: #bebebe;
+    border: 1px green;
+    border-radius: 0.05rem;
+    margin: 0.1rem;
+    font-size: 24pt;
+}
+
+nav {
+     border: 1px solid #000;
+    height: 250px; 
+}
+
 h3 {color: #FF0000}
 html {background-color: #00FFFF}
