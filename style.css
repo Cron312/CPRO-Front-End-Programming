@@ -4,14 +4,6 @@
     justify-content: center; 
 }
 
-div {
-    background-color: #FFF000;
-    border: 1px green;
-    border-radius: 0.05rem;
-    margin: 5rem;
-    font-size: 15pt;
-}
-
 nav {
      border: 1px solid #000;
     height: 50px; 
@@ -19,3 +11,19 @@ nav {
 
 h3 {color: #FF0000}
 
+.grid {
+    display: grid 2fr 1fr 1fr;
+    grid-template-areas:
+        "Lsquare Lsquare rec ."
+        "Lsquare Lsquare rec Ssquare"
+        "rec rec Lsquare Lsquare"
+        "Ssquare . Lsquare Lsquare";
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid #0F0F0F;
+    
+}
+
+.Lsquare { grid-area: Lsquare }
+.rec {grid-area:rec}
+.Ssquare {grid-area:Ssquare}
